@@ -3,9 +3,9 @@ import pyperclip
 import time
 import google.generativeai as genai
 
-geminiAPI = 'AIzaSyBeu-92hTKl192JmYkxHHwsUUs8vX0G1Pw'
+geminiAPI = 'api'
 
-def is_last_message_from_sender(chat_log, sender_name="Fatima"):
+def is_last_message_from_sender(chat_log, sender_name="Mama"):
     # Split the chat log into individual messages
     messages = chat_log.strip().split("/2024] ")[-1]
     print(messages)
